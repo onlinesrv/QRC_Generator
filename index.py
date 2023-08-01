@@ -13,7 +13,6 @@ class MainApp(QMainWindow,Ui_MainWindow):
     
     def __init__(self):
         QMainWindow.__init__(self)
-        #loadUi('main.ui',self)
         self.setupUi(self)
         ui_setup.setup_ui(self)
         
